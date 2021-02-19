@@ -1,0 +1,23 @@
+{
+  "name": "time-tracker",
+  "version": "1.0.0",
+  "description": "A Simple Web Application That Logs Entries",
+  "main": "index.html",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/credlak/Time-Tracker.git"
+  },
+  "author": "Carolyn Redlak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/credlak/Time-Tracker/issues"
+  },
+  "homepage": "https://github.com/credlak/Time-Tracker#readme"
+}
