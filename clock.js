@@ -1,3 +1,7 @@
+function getTime(hours, minutes, seconds) {
+  return formatDigits(hours) + ":" + formatDigits(minutes) + ":" + formatDigits(seconds);
+}
+
 function formatDigits(time) {
     return (time < 10 ? "0" : "") + time;
 }
@@ -15,8 +19,7 @@ function startClock() {
         hours++;
         minutes = 0;
     }
-    var time = formatDigits(hours) + ":" + formatDigits(minutes) + ":" + formatDigits(seconds);
-    document.getElementById("clock").innerHTML = time;
+    document.getElementById("clock").innerHTML = getTime(hours, minutes, seconds);;
 }
 
 function stopClock() {

@@ -9,6 +9,11 @@
    border: 5px solid #4698a6;
 }
 
+#content > div:nth-child(2) {
+    font-size: large;
+    text-align: center;
+}
+
 #message {
     font-size: larger;
     text-align: center;
@@ -20,9 +25,13 @@
   padding: 10px 0px;
 }
 
-#content > div:nth-child(2) {
-    font-size: large;
-    text-align: center;
+#logging {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow-y: auto;
+  margin: 20px;
 }
 
 #timer {
